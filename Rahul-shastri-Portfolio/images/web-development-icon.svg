@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Code Brackets -->
+  <path d="M30,40 L15,50 L30,60" fill="none" stroke="#4285F4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M70,40 L85,50 L70,60" fill="none" stroke="#4285F4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Slash -->
+  <path d="M60,30 L40,70" fill="none" stroke="#EA4335" stroke-width="5" stroke-linecap="round" />
+  
+  <!-- Code Lines -->
+  <rect x="35" y="25" width="30" height="3" rx="1.5" ry="1.5" fill="#34A853" />
+  <rect x="25" y="35" width="20" height="3" rx="1.5" ry="1.5" fill="#FBBC05" />
+  <rect x="55" y="35" width="15" height="3" rx="1.5" ry="1.5" fill="#FBBC05" />
+  <rect x="35" y="45" width="25" height="3" rx="1.5" ry="1.5" fill="#34A853" />
+  <rect x="25" y="55" width="30" height="3" rx="1.5" ry="1.5" fill="#FBBC05" />
+  <rect x="60" y="55" width="10" height="3" rx="1.5" ry="1.5" fill="#FBBC05" />
+  <rect x="35" y="65" width="20" height="3" rx="1.5" ry="1.5" fill="#34A853" />
+  <rect x="60" y="65" width="15" height="3" rx="1.5" ry="1.5" fill="#34A853" />
+</svg>

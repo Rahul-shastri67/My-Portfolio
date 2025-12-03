@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="4" fill="#4285F4" />
+  
+  <!-- Letter P -->
+  <path d="M10,8 L18,8 C20.2,8 22,9.8 22,12 C22,14.2 20.2,16 18,16 L14,16 L14,24 L10,24 L10,8 Z M14,12 L18,12 C18,12 18,12 18,12 C18,12 18,12 18,12 L14,12 Z" fill="#FFFFFF" />
+</svg>

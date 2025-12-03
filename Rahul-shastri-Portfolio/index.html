@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Developer_Rahul</title>
+    
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="images/favicon.svg" type="image/svg+xml"> -->
+    
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Rahul</a>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="contact-btn">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello! I Am <span class="highlight">Rahul</span></h1>
+                <p>Dynamic Full Stack Developer with 2+ years of experience in building and deploying web apps using Node.js, Express.js, Firebase, MongoDB, React.js, and Next.js. Skilled in creating secure APIs, optimizing performance, and delivering innovative, user-focused solutions.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="primary-btn">See My Work</a>
+                    <a href="#contact" class="secondary-btn">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="images/mypic2.png" alt="Developer Portrait">
+                    <!-- Background shapes for effect -->
+                    <div class="shape shape-1"><img src="images/shape1.svg" alt="Shape 1"></div>
+                    <div class="shape shape-2"><img src="images/shape2.svg" alt="Shape 2"></div>
+                    <div class="shape shape-3"><img src="images/shape3.svg" alt="Shape 3"></div>
+                    <div class="shape shape-4"><img src="images/shape4.svg" alt="Shape 4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">My Services</span>
+            <h2>What I Offer</h2>
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/web-development-icon.svg" alt="Backend Development">
+                </div>
+                <h3>Backend Development</h3>
+                <p>Building secure, scalable APIs and server-side logic using Node.js, <strong>ExpressJS</strong>, Firebase, and <strong>MongoDB</strong> for efficient data management and processing.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/web-design-icon.svg" alt="Frontend Development">
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Creating modern, dynamic UIs with <strong>ReactJS</strong> and <strong>NextJS</strong> that deliver excellent user experiences with server-side rendering capabilities.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/app-development-icon.svg" alt="Performance Optimization">
+                </div>
+                <h3>Performance Optimization</h3>
+                <p>Improving speed, efficiency, and reliability of web applications built with <strong>ReactJS</strong>, <strong>NextJS</strong>, and <strong>ExpressJS</strong> to enhance user engagement and SEO.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="skills-content">
+                <div class="section-header">
+                    <span class="subtitle">My Skills</span>
+                    <h2>My Expertise</h2>
+                    <p>I've spent years honing my skills in web development, specializing in modern JavaScript frameworks and technologies. My expertise includes <strong>ReactJS</strong>, <strong>NextJS</strong>, <strong>ExpressJS</strong>, and <strong>MongoDB</strong> for building full-stack applications with optimal performance and user experience.</p>
+                
+                    <!-- <--!-- CV Download Button -->                              
+                    <div class="cv-button-container">
+                        <a href="images/cv-rahul-shastri.pdf" download="Rahul_Shastri_CV.pdf" class="primary-btn">Download CV</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="skills-showcase">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="images/react-logo.svg" alt="ReactJS">
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percent="90">
+                            
+                        </div>
+                        <h4>ReactJS</h4>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="images/nextjs-logo.svg" alt="NextJS">
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percent="85">
+                            
+                        </div>
+                        <h4>NextJS</h4>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="images/expressjs-logo.svg" alt="ExpressJS">
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percent="85">
+                            <span class="percent">75%</span>
+                        </div>
+                        <h4>ExpressJS</h4>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript">
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percent="90">
+                          
+                        </div>
+                        <h4>TypeScript</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+ <section class="projects" id="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">My Work</span>
+            <h2>Recent Projects</h2>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/project1.svg" alt="Photographer SaaS">
+                </div>
+                <div class="project-content">
+                    <h3>Photographer SaaS</h3>
+                    <div class="project-tags">
+                        <span>Node.js</span>
+                        <span>FastAPI</span>
+                        <span>PostgreSQL</span>
+                        <span>Cloudflare R2</span>
+                    </div>
+                    <p>An AI-powered SaaS platform for photography studios offering face recognition, photo management, and website builder tools.</p>
+                    <a href="#" class="read-more">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/project2.svg" alt="Riyo Transporter App">
+                </div>
+                <div class="project-content">
+                    <h3>Riyo – Transporter App</h3>
+                    <div class="project-tags">
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                        <span>JWT Auth</span>
+                        <span>REST API</span>
+                    </div>
+                    <p>Developed the backend for a logistics platform enabling transporters to manage bookings, schedules, and real-time delivery updates.</p>
+                    <a href="#" class="read-more">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/project3.svg" alt="SahasHomeo">
+                </div>
+                <div class="project-content">
+                    <h3>SahasHomeo</h3>
+                    <div class="project-tags">
+                        <span>Next.js</span>
+                        <span>Tailwind CSS</span>
+                        <span>Firebase</span>
+                    </div>
+                    <p>A homeopathy clinic website with appointment booking, case history tracking, and real-time notifications.</p>
+                    <a href="#" class="read-more">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/project4.svg" alt="MLM Backend System">
+                </div>
+                <div class="project-content">
+                    <h3>MLM Backend System</h3>
+                    <div class="project-tags">
+                        <span>Express.js</span>
+                        <span>Prisma</span>
+                        <span>PostgreSQL</span>
+                        <span>JWT Auth</span>
+                    </div>
+                    <p>A robust backend system for multi-level marketing businesses with role-based access, referral logic, and commission tracking.</p>
+                    <a href="#" class="read-more">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/project5.svg" alt="Face Recognition Microservice">
+                </div>
+                <div class="project-content">
+                    <h3>Face Recognition Microservice</h3>
+                    <div class="project-tags">
+                        <span>FastAPI</span>
+                        <span>InsightFace</span>
+                        <span>Docker</span>
+                    </div>
+                    <p>A high-performance microservice using deep learning for photo matching based on facial recognition.</p>
+                    <a href="#" class="read-more">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/project6.svg" alt="CraftCity E-Commerce App">
+                </div>
+                <div class="project-content">
+                    <h3>CraftCity – E-Commerce App</h3>
+                    <div class="project-tags">
+                        <span>React.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                        <span>Stripe</span>
+                    </div>
+                    <p>A full-featured e-commerce platform for handmade products with user authentication, cart, payment, and order tracking.</p>
+                    <a href="#" class="read-more">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonials Section -->
+   <section class="testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">Testimonials</span>
+            <h2>What Clients Say</h2>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial-card active">
+                <div class="quote-icon">
+                    <img src="images/quote-icon.svg" alt="Quote">
+                </div>
+                <p>"Rahul did an outstanding job building the backend of our transporter app, Riyo. His speed, code quality, and problem-solving ability helped us go live faster than planned."</p>
+                <div class="client-info">
+                    <img src="images/testimonial1.svg" alt="Amit Sharma" class="client-img">
+                    <h4>Amit Sharma</h4>
+                    <span>Product Manager, Riyo</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <img src="images/quote-icon.svg" alt="Quote">
+                </div>
+                <p>"Rahul played a key role in developing our AI-based SaaS for photographers. From face recognition integration to deployment, his backend skills were top-notch."</p>
+                <div class="client-info">
+                    <img src="images/testimonial2.svg" alt="Ritika Verma" class="client-img">
+                    <h4>Ritika Verma</h4>
+                    <span>Founder, StudioSnap</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <img src="images/quote-icon.svg" alt="Quote">
+                </div>
+                <p>"For SahasHomeo, Rahul helped us create a seamless online consultation and case tracking system. His work truly modernized our practice."</p>
+                <div class="client-info">
+                    <img src="images/testimonial3.svg" alt="Dr. Manish Sahas" class="client-img">
+                    <h4>Dr. Manish Sahas</h4>
+                    <span>Director, SahasHomeo Clinic</span>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><img src="images/arrow-left-icon.svg" alt="Previous"></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-btn"><img src="images/arrow-right-icon.svg" alt="Next"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Get In Touch</span>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="images/location-icon.svg" alt="Location">
+                        </div>
+                        <div class="details">
+                            <h4>Location</h4>
+                            <p>Ramnagar nainital uttarakhand-244715</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="images/email-icon.svg" alt="Email">
+                        </div>
+                        <div class="details">
+                            <h4>Email</h4>
+                            <p>shastrirahul246@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="images/phone-icon.svg" alt="Phone">
+                        </div>
+                        <div class="details">
+                            <h4>Phone</h4>
+                            <p>+91 6397228331</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Rahul</h2>
+                    <p>Dynamic Full Stack Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="github.com/Rahul-shastri67"><img src="images/github-icon.svg" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/rahul-shastri-b690ba2b8/"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a>
+                    <a href="https://x.com/i_am_Rahul_786"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Rahul | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <img src="images/arrow-up-icon.svg" alt="Back to Top">
+    </button>
+
+  <!-- EmailJS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- Init EmailJS -->
+<script>
+  (function () {
+    emailjs.init("PB8CqN0CBuYOOgd2c");
+  })();
+</script>
+
+<!-- Custom JS (form handling) -->
+<script type="module" src="js/script.js"></script>
+</body>
+</html>

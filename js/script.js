@@ -1,8 +1,3 @@
-// ES module import always at the top
-//  // extension .js dena better hai
-// import imagesLoaded from "./images.js";
-
-// Wait for the DOM to be fully loaded before executing scripts
 document.addEventListener("DOMContentLoaded", function () {
   // ===== MOBILE MENU TOGGLE =====
   const menuBtn = document.querySelector(".menu-btn");
@@ -114,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log(emailParams);
 
       emailjs
-        .send("service_354e4ts", "template_7mrtbba", emailParams)
+        .send("service_25zjzdt", "template_7mrtbba", emailParams)
         .then(() => {
           alert("Message sent successfully!");
           contactForm.reset();
